@@ -2,7 +2,7 @@
 version: '3.7'
 services:
   app:
-    image: app${APP_VERSION}
+    image: app
     build: .
     ports:
     - target: 5000
